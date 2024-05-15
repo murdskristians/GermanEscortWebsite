@@ -151,6 +151,7 @@
     position: relative;
     height: 100px;
     align-items: flex-start;
+    overflow-x: hidden;
 }
 .header-section {
     padding: 0px 80px 0px 80px;
@@ -160,7 +161,6 @@
     align-items: center;
     justify-content: center;
     flex: 1;
-    width: 1920px;
     position: relative;
 }
 .frame-195 {
@@ -590,4 +590,90 @@
 .logos img:hover{
     border-radius: 10px;
     background: var(--red, #CB2524);
+}
+
+/*All cities*/
+.all-cities-container{
+    background-color: var(--black);
+}
+
+.all-cities-section,
+.all-cities-section * {
+    box-sizing: border-box;
+}
+.all-cities-section {
+    padding: 80px 304px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.all-cities-section-title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 100%;
+    min-width: 700px;
+    text-align-last: center;
+
+}
+.all-cities-heading {
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: var(--h2-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h2-font-size, 48px);
+    line-height: var(--h2-line-height, 120%);
+    font-weight: var(--h2-font-weight, 700);
+    position: relative;
+    align-self: stretch;
+}
+.all-cities-list {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    min-width: 700px;
+    max-width: calc((387px + 12px) * 4 - 12px); /* Adjust the width as needed */
+    margin: 0 auto;
+}
+.all-cities-link {
+    padding: 0px 4px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    min-width: 304px;
+    position: relative;
+}
+.all-cities-link-one {
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: "WorkSans-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    position: relative;
+}
+.all-cities-arrow {
+    flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    overflow: visible;
 }
