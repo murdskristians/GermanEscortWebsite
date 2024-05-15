@@ -1,5 +1,5 @@
 <div class="menu-blcok">
-    <div class="section">
+    <div class="header-section">
         <img class="frame-195" src="/images/logogfu4.svg" />
         <div class="menu-box">
             <div class="main-menu-buttons">
