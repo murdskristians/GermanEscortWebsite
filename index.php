@@ -13,13 +13,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
 <!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>-->
-<!--    <link rel="stylesheet" href="css/reset.css">-->
-<!--    <link rel="stylesheet" href="css/start.css?--><?php //echo microtime(); ?><!--">-->
+    <link rel="stylesheet" href="css/reset.css?<?php echo microtime(); ?>">
+    <link rel="stylesheet" href="css/vars.css?<?php echo microtime(); ?>">
+    <link rel="stylesheet" href="css/style.css?<?php echo microtime(); ?>">
 </head>
 
 <body>
 
-<?php // include_once $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php'; ?>
+<?php  include_once $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php'; ?>
 
 
 
