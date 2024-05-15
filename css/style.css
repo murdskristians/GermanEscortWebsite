@@ -144,12 +144,11 @@
 
 .menu-blcok {
     background: var(--black, #131217);
-    /*display: flex;*/
+    display: flex;
     flex-direction: column;
     gap: 25px;
     justify-content: center;
     position: relative;
-    display: inline-flex;
     height: 100px;
     align-items: flex-start;
 }
