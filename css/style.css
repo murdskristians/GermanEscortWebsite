@@ -463,6 +463,46 @@
     content: url('/images/icons/icon-profile-white.svg');
 }
 
+.header__mobile-btn {
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    position: relative;
+}
+
+.header__mobile-btn__line {
+    background: white;
+    height: 2px;
+    width: 26px;
+    margin: 0;
+    transition: all 0.5s ease;
+}
+
+.header__mobile-btn::after, .header__mobile-btn::before {
+    content: "";
+    position: absolute;
+    background: white;
+    height: 2px;
+    left: 0;
+    transition: .4s all;
+    width: 100%;
+}
+.header__mobile-btn::before {
+    top: 6px;
+    transform: rotate(0deg) translate(0px, 0px);
+    transition: all 0.5s ease;
+}
+.header__mobile-btn::after {
+    bottom: 6px;
+    transform: rotate(0deg) translate(0px, 0px);
+    transition: all 0.5s ease;
+}
 /* Footer */
 
 .footer-block,
@@ -676,4 +716,24 @@
     height: 12px;
     position: relative;
     overflow: visible;
+}
+.main-menu-buttons div, .main-menu-buttons2 div {
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 1vw;
+}
+
+.header__mobile-btn {
+    display: none;
+}
+
+/* Media query for when the viewport width is less than 800px */
+@media (max-width: 1390px) {
+    .header__mobile-btn {
+        display: block;
+    }
+    .menu-box{
+        display: none;
+    }
 }

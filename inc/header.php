@@ -43,5 +43,8 @@
             </div>
             <img class="main-menu-buttons3" src="/images/icons/icon-profile.svg" />
         </div>
+        <button class="header__mobile-btn" id="mobile_menu_open_btn">
+            <div class="header__mobile-btn__line" id="mobile_menu_open_btn_midline"></div>
+        </button>
     </div>
 </div>
