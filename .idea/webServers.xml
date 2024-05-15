@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c52497a7-dad8-43f4-a34c-b5d2b7d796af" name="Escort">
+        <fileTransfer rootFolder="/var/www/vhosts/shopdev.lv/escort.shopdev.lv" accessType="SFTP" host="91.228.6.228" port="22" sshConfigId="b692ea91-966e-40b2-8f3b-d9eb699de1cd" sshConfig="root@91.228.6.228:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
