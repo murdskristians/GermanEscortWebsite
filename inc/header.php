@@ -2,18 +2,18 @@
     <div class="header-section">
         <img class="frame-195" src="/images/logogfu4.svg" />
         <div class="menu-box">
-            <div class="main-menu-buttons">
+            <a class="main-menu-buttons" href="../index.php">
                 <img class="frame-177" src="/images/icons/icon-home.svg" />
                 <div class="home">Home</div>
-            </div>
-            <div class="main-menu-buttons">
+            </a>
+            <a class="main-menu-buttons" href="../pages/all_cities.php">
                 <img class="frame-1772" src="/images/icons/icon-cities.svg" />
                 <div class="cities">Cities</div>
-            </div>
-            <div class="main-menu-buttons">
+            </a>
+            <a class="main-menu-buttons" href="../pages/all_models.php">
                 <img class="frame-1773" src="/images/icons/icon-models.svg" />
                 <div class="models">Models</div>
-            </div>
+            </a>
             <div class="main-menu-buttons">
                 <img class="frame-1774" src="/images/icons/icon-liked.svg" />
                 <div class="liked">Liked</div>
