@@ -18,17 +18,17 @@
                 <img class="frame-1774" src="/images/icons/icon-liked.svg" />
                 <div class="liked">Liked</div>
             </a>
-            <a class="main-menu-buttons">
+            <a class="main-menu-buttons" href="../pages/special_models.php">
                 <div class="frame-1775">
                     <img class="group-1171273748" src="/images/icons/icon-special.svg" />
                 </div>
                 <div class="special">Special</div>
             </a>
-            <a class="main-menu-buttons">
+            <a class="main-menu-buttons" href="../pages/newest_models.php">
                 <img class="frame-1776" src="/images/icons/icon-newest.svg" />
                 <div class="newest">Newest</div>
             </a>
-            <a class="main-menu-buttons">
+            <a class="main-menu-buttons" href="../pages/hottest_models.php">
                 <img class="frame-1777" src="/images/icons/icon-hottest.svg" />
                 <div class="hottest">Hottest</div>
             </a>
