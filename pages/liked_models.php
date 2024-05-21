@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta https-equiv="X-UA-Compatible" wrapper="ie=edge">
-    <title>All Models</title>
+    <title>Liked Models</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap"
@@ -25,46 +25,10 @@
 
 <div class="common-main-section">
     <div class="common-main-section-title">
-        <div class="common-main-heading">Models</div>
+        <div class="common-main-heading">Liked Models</div>
     </div>
 
-
-    <div class="model_filter-container">
-        <div class="model_filter-box">
-            <div class="model_filter-item">
-                <div class="model_filter-button">Age</div>
-                <img class="model_filter-icon" src="../images/icons/arrow.svg" />
-            </div>
-            <div class="model_filter-item">
-                <div class="model_filter-button">Hair</div>
-                <img class="model_filter-icon" src="../images/icons/arrow.svg" />
-            </div>
-            <div class="model_filter-item">
-                <div class="model_filter-button">Rates</div>
-                <img class="model_filter-icon" src="../images/icons/arrow.svg" />
-            </div>
-            <div class="model_filter-item">
-                <div class="model_filter-button">Breast</div>
-                <img class="model_filter-icon" src="../images/icons/arrow.svg" />
-            </div>
-            <div class="model_filter-item">
-                <div class="model_filter-button">Weight</div>
-                <img class="model_filter-icon" src="../images/icons/arrow.svg" />
-            </div>
-            <div class="model_filter-item">
-                <div class="model_filter-button">Height</div>
-                <img class="model_filter-icon" src="../images/icons/arrow.svg" />
-            </div>
-        </div>
-        <div class="model_filter-clear">
-            <div class="model_filter-clear-text">Clear Filters</div>
-            <img class="model_filter-clear-icon" src="../images/icons/arrow.svg" />
-        </div>
-    </div>
-
-
-
-    <?php  include_once $_SERVER['DOCUMENT_ROOT'] . '/inc/models-grid.php'; ?>
+    <?php  include_once $_SERVER['DOCUMENT_ROOT'] . '/inc/small-models-grid.php'; ?>
 
     <div class="models_grid-paging">
         <div class="models_grid-arrows">
@@ -83,10 +47,6 @@
             <div class="models_grid-of-total">of 3</div>
         </div>
     </div>
-
-
-    <h2 class="models-heading2">Recommended for you</h2>
-    <?php  include_once $_SERVER['DOCUMENT_ROOT'] . '/inc/small-models-grid.php'; ?>
 
 </div>
 

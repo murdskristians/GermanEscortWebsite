@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta https-equiv="X-UA-Compatible" wrapper="ie=edge">
-    <title>ESCORT</title>
+    <title>Confirm age</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap"
@@ -40,11 +40,11 @@
         <div class="frame-174">
             <div class="content-button">
                 <div class="buton">I am 18 or older</div>
-                <img class="arrow" src="../images/arrow.svg"/>
+                <img class="arrow" src="../images/icons/arrow.svg"/>
             </div>
             <div class="content-button">
                 <div class="buton">Enter I am under 18</div>
-                <img class="arrow" src="../images/arrow.svg"/>
+                <img class="arrow" src="../images/icons/arrow.svg"/>
             </div>
         </div>
         <div

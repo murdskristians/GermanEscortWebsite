@@ -14,24 +14,24 @@
                 <img class="frame-1773" src="/images/icons/icon-models.svg" />
                 <div class="models">Models</div>
             </a>
-            <div class="main-menu-buttons">
+            <a class="main-menu-buttons" href="../pages/liked_models.php">
                 <img class="frame-1774" src="/images/icons/icon-liked.svg" />
                 <div class="liked">Liked</div>
-            </div>
-            <div class="main-menu-buttons">
+            </a>
+            <a class="main-menu-buttons">
                 <div class="frame-1775">
                     <img class="group-1171273748" src="/images/icons/icon-special.svg" />
                 </div>
                 <div class="special">Special</div>
-            </div>
-            <div class="main-menu-buttons">
+            </a>
+            <a class="main-menu-buttons">
                 <img class="frame-1776" src="/images/icons/icon-newest.svg" />
                 <div class="newest">Newest</div>
-            </div>
-            <div class="main-menu-buttons">
+            </a>
+            <a class="main-menu-buttons">
                 <img class="frame-1777" src="/images/icons/icon-hottest.svg" />
                 <div class="hottest">Hottest</div>
-            </div>
+            </a>
         </div>
         <div class="menu-box2">
             <div class="main-menu-buttons2">

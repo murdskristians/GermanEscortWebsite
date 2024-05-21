@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta https-equiv="X-UA-Compatible" wrapper="ie=edge">
-    <title>ESCORT</title>
+    <title>From this city</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap"
@@ -23,28 +23,28 @@
 <?php  include_once $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php'; ?>
 
 
-<div class="one_city-section">
-    <div class="one_city-section-title">
-        <div class="one_city-heading">Darmstadt models</div>
+<div class="common-main-section">
+    <div class="common-main-section-title">
+        <div class="common-main-heading">Darmstadt models</div>
     </div>
 
     <?php  include_once $_SERVER['DOCUMENT_ROOT'] . '/inc/models-grid.php'; ?>
 
-    <div class="one_city-paging">
-        <div class="one_city-arrows">
-            <div class="one_city-main-menu-button">
-                <img class="one_city-group-small" src="../images/arrow.svg" />
+    <div class="models_grid-paging">
+        <div class="models_grid-arrows">
+            <div class="models_grid-main-menu-button">
+                <img class="models_grid-group-small" src="../images/icons/arrow.svg" />
             </div>
             <div class="one_city-main-menu-button2">
-                <img class="one_city-group-small" src="../images/arrow.svg" />
+                <img class="models_grid-group-small" src="../images/icons/arrow.svg" />
             </div>
         </div>
-        <div class="one_city-paging2">
-            <div class="one_city-showing">Showing</div>
-            <div class="one_city-frame-small">
-                <div class="one_city-page-number">01</div>
+        <div class="models_grid-paging2">
+            <div class="models_grid-showing">Showing</div>
+            <div class="models_grid-small">
+                <div class="models_grid-page-number">01</div>
             </div>
-            <div class="one_city-of-total">of 3</div>
+            <div class="models_grid-of-total">of 3</div>
         </div>
     </div>
 </div>

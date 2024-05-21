@@ -9,10 +9,9 @@
         "
         >
             <img class="models_grid-vector" src="../images/icons/icon-model-verified.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector0.svg" />
-                <img class="models_grid-group" src="group0.svg" />
-                <img class="models_grid-group2" src="group1.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
@@ -37,11 +36,9 @@
           background-repeat: no-repeat;
         "
         >
-            <img class="models_grid-like" src="like1.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector1.svg" />
-                <img class="models_grid-group" src="group2.svg" />
-                <img class="models_grid-group2" src="group3.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
@@ -67,10 +64,9 @@
         "
         >
             <img class="models_grid-vector" src="../images/icons/icon-model-verified.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector2.svg" />
-                <img class="models_grid-group" src="group4.svg" />
-                <img class="models_grid-group2" src="group5.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
@@ -96,10 +92,9 @@
         "
         >
             <img class="models_grid-vector" src="../images/icons/icon-model-verified.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector3.svg" />
-                <img class="models_grid-group" src="group6.svg" />
-                <img class="models_grid-group2" src="group7.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
@@ -124,11 +119,9 @@
           background-repeat: no-repeat;
         "
         >
-            <img class="models_grid-like" src="like4.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector4.svg" />
-                <img class="models_grid-group" src="group8.svg" />
-                <img class="models_grid-group2" src="group9.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
@@ -153,11 +146,9 @@
           background-repeat: no-repeat;
         "
         >
-            <img class="models_grid-like" src="like5.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector5.svg" />
-                <img class="models_grid-group" src="group10.svg" />
-                <img class="models_grid-group2" src="group11.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
@@ -182,11 +173,9 @@
           background-repeat: no-repeat;
         "
         >
-            <img class="models_grid-vector" src="../images/icons/icon-model-verified.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector6.svg" />
-                <img class="models_grid-group" src="group12.svg" />
-                <img class="models_grid-group2" src="group13.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
@@ -211,11 +200,9 @@
           background-repeat: no-repeat;
         "
         >
-            <img class="models_grid-vector" src="../images/icons/icon-model-verified.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector7.svg" />
-                <img class="models_grid-group" src="group14.svg" />
-                <img class="models_grid-group2" src="group15.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
@@ -240,11 +227,9 @@
           background-repeat: no-repeat;
         "
         >
-            <img class="models_grid-like" src="like8.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector8.svg" />
-                <img class="models_grid-group" src="group16.svg" />
-                <img class="models_grid-group2" src="group17.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
@@ -269,11 +254,9 @@
           background-repeat: no-repeat;
         "
         >
-            <img class="models_grid-vector" src="../images/icons/icon-model-verified.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector9.svg" />
-                <img class="models_grid-group" src="group18.svg" />
-                <img class="models_grid-group2" src="group19.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
@@ -298,11 +281,9 @@
           background-repeat: no-repeat;
         "
         >
-            <img class="models_grid-vector" src="../images/icons/icon-model-verified.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector10.svg" />
-                <img class="models_grid-group" src="group20.svg" />
-                <img class="models_grid-group2" src="group21.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
@@ -327,11 +308,9 @@
           background-repeat: no-repeat;
         "
         >
-            <img class="models_grid-like" src="like11.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector11.svg" />
-                <img class="models_grid-group" src="group22.svg" />
-                <img class="models_grid-group2" src="group23.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
@@ -356,11 +335,9 @@
           background-repeat: no-repeat;
         "
         >
-            <img class="models_grid-like" src="like12.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector12.svg" />
-                <img class="models_grid-group" src="group24.svg" />
-                <img class="models_grid-group2" src="group25.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
@@ -385,11 +362,9 @@
           background-repeat: no-repeat;
         "
         >
-            <img class="models_grid-vector" src="../images/icons/icon-model-verified.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector13.svg" />
-                <img class="models_grid-group" src="group26.svg" />
-                <img class="models_grid-group2" src="group27.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
@@ -415,10 +390,9 @@
         "
         >
             <img class="models_grid-vector" src="../images/icons/icon-model-verified.svg" />
+            <img class="models_grid-group" style="display: none" src="../images/icons/icon-like-empty.svg" />
             <div class="models_grid-ico-country">
-                <img class="models_grid-vector" src="vector14.svg" />
-                <img class="models_grid-group" src="group28.svg" />
-                <img class="models_grid-group2" src="group29.svg" />
+                <img class="models_grid-vector" src="../images/icons/icon-country-unitedkingdom.png" />
             </div>
             <div class="models_grid-tags">
                 <div class="models_grid-new">
