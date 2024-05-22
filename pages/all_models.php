@@ -64,7 +64,7 @@
 
 
 
-    <?php  include_once $_SERVER['DOCUMENT_ROOT'] . '/inc/models-grid.php'; ?>
+    <?php  include_once $_SERVER['DOCUMENT_ROOT'] . '/inc/big-models-grid.php'; ?>
 
     <div class="models_grid-paging">
         <div class="models_grid-arrows">

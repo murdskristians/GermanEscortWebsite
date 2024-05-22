@@ -1,5 +1,5 @@
 <div class="models_grid-list">
-    <div class="models_grid-girl-box">
+    <a class="models_grid-girl-box" href="../pages/one_model.php">
         <div
                 class="models_grid-photo-box"
                 style="
@@ -26,8 +26,8 @@
             <div class="models_grid-name">JESSICA TIMO</div>
             <div class="models_grid-frame-row"></div>
         </div>
-    </div>
-    <div class="models_grid-girl-box">
+    </a>
+    <a class="models_grid-girl-box" href="../pages/one_model.php">
         <div
                 class="models_grid-photo-box"
                 style="
@@ -53,8 +53,8 @@
             <div class="models_grid-name">SOFIA STAR</div>
             <div class="models_grid-frame-row"></div>
         </div>
-    </div>
-    <div class="models_grid-girl-box">
+    </a>
+    <a class="models_grid-girl-box" href="../pages/one_model.php">
         <div
                 class="models_grid-photo-box"
                 style="
@@ -81,8 +81,8 @@
             <div class="models_grid-name">NINA BLACK</div>
             <div class="models_grid-frame-row"></div>
         </div>
-    </div>
-    <div class="models_grid-girl-box">
+    </a>
+    <a class="models_grid-girl-box" href="../pages/one_model.php">
         <div
                 class="models_grid-photo-box"
                 style="
@@ -109,8 +109,8 @@
             <div class="models_grid-name">DIA FOXY</div>
             <div class="models_grid-frame-row"></div>
         </div>
-    </div>
-    <div class="models_grid-girl-box">
+    </a>
+    <a class="models_grid-girl-box" href="../pages/one_model.php">
         <div
                 class="models_grid-photo-box"
                 style="
@@ -136,5 +136,5 @@
             <div class="models_grid-name">KATERINA</div>
             <div class="models_grid-frame-row"></div>
         </div>
-    </div>
+    </a>
 </div>
