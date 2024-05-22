@@ -1,6 +1,6 @@
 <div class="menu-blcok">
     <div class="header-section">
-        <img class="frame-195" src="/images/logogfu4.svg" />
+        <img class="header-logo" src="/images/logogfu4.svg" />
         <div class="menu-box">
             <a class="main-menu-buttons" href="../index.php">
                 <img class="frame-177" src="/images/icons/icon-home.svg" />
@@ -32,14 +32,18 @@
                 <img class="frame-1777" src="/images/icons/icon-hottest.svg" />
                 <div class="hottest">Hottest</div>
             </a>
+            <div class="main-menu-buttons" data-target="profile-pop-up">
+                <img class="frame-1778" src="/images/icons/icon-burger.svg" />
+                <div class="hottest">More</div>
+            </div>
         </div>
         <div class="menu-box2">
             <div class="main-menu-buttons2">
                 <div class="ico-country-c-united-kingdom">
                     <img class="vector" src="/images/icons/icon-country-unitedkingdom.png" />
                 </div>
-                <div class="eng">ENG</div>
-                <img class="group-1171273540" src="/images/icons/arrow-red-down.svg" />
+                <div class="eng" id="language-text">ENG</div>
+                <img class="group-1171273540" src="/images/icons/arrow.svg" />
             </div>
             <img class="main-menu-buttons3" src="/images/icons/icon-profile.svg" />
         </div>
@@ -48,3 +52,48 @@
         </button>
     </div>
 </div>
+<!-- Pop Up -->
+<div class="more-options-pop-up-modal" id="profile-pop-up" style="display: none">
+    <div class="more-options-pop-up_base">
+        <div class="more-options-pop-up_frame">
+            <div class="more-options-pop-up_item">
+                <img class="more-options-pop-up_icon" src="../images/icons/icon-house.svg" />
+                <div class="more-options-pop-up_link">
+                    <div class="more-options-pop-up_text">Place for date</div>
+                    <img class="more-options-pop-up_arrow" src="../images/icons/arrow.svg" />
+                </div>
+            </div>
+            <div class="more-options-pop-up_item">
+                <img class="more-options-pop-up_icon" src="../images/icons/icon-hearth-full.svg" />
+                <div class="more-options-pop-up_link">
+                    <div class="more-options-pop-up_text">Liked</div>
+                    <img class="more-options-pop-up_arrow" src="../images/icons/arrow.svg" />
+                </div>
+            </div>
+            <div class="more-options-pop-up_item">
+                <img class="more-options-pop-up_icon" src="../images/icons/icon-shorts.svg" />
+                <div class="more-options-pop-up_link">
+                    <div class="more-options-pop-up_text">Shorties</div>
+                    <img class="more-options-pop-up_arrow" src="../images/icons/arrow.svg" />
+                </div>
+            </div>
+            <div class="more-options-pop-up_item">
+                <img class="more-options-pop-up_icon" src="../images/icons/icon-conditions.svg" />
+                <div class="more-options-pop-up_link">
+                    <div class="more-options-pop-up_text">Terms and Conditions</div>
+                    <img class="more-options-pop-up_arrow" src="../images/icons/arrow.svg" />
+                </div>
+            </div>
+            <div class="more-options-pop-up_item">
+                <img class="more-options-pop-up_icon" src="../images/icons/icon-health.svg" />
+                <div class="more-options-pop-up_link">
+                    <div class="more-options-pop-up_text">Sexual Wellness</div>
+                    <img class="more-options-pop-up_arrow" src="../images/icons/arrow.svg" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="/js/header-pop-up.js"></script>

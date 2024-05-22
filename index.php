@@ -14,9 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap"
           rel="stylesheet">
     <!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>-->
-    <link rel="stylesheet" href="../css/reset.css?<?php echo microtime(); ?>">
-    <link rel="stylesheet" href="../css/vars.css?<?php echo microtime(); ?>">
-    <link rel="stylesheet" href="../css/style.css?<?php echo microtime(); ?>">
+    <link rel="stylesheet" href="./css/reset.css?<?php echo microtime(); ?>">
+    <link rel="stylesheet" href="./css/vars.css?<?php echo microtime(); ?>">
+    <link rel="stylesheet" href="./css/style.css?<?php echo microtime(); ?>">
 </head>
 
 <body>
@@ -34,90 +34,13 @@
     </div>
 
 <!-- Filter -->
-    <div class="model_filter-container">
-        <div class="model_filter-box">
-            <div class="model_filter-item">
-                <div class="model_filter-button">Age</div>
-                <img class="model_filter-icon" src="./images/icons/arrow.svg" />
-            </div>
-            <div class="model_filter-item">
-                <div class="model_filter-button">Hair</div>
-                <img class="model_filter-icon" src="./images/icons/arrow.svg" />
-            </div>
-            <div class="model_filter-item">
-                <div class="model_filter-button">Rates</div>
-                <img class="model_filter-icon" src="./images/icons/arrow.svg" />
-            </div>
-            <div class="model_filter-item">
-                <div class="model_filter-button">Breast</div>
-                <img class="model_filter-icon" src="./images/icons/arrow.svg" />
-            </div>
-            <div class="model_filter-item">
-                <div class="model_filter-button">Weight</div>
-                <img class="model_filter-icon" src="./images/icons/arrow.svg" />
-            </div>
-            <div class="model_filter-item">
-                <div class="model_filter-button">Height</div>
-                <img class="model_filter-icon" src="./images/icons/arrow.svg" />
-            </div>
-        </div>
-        <div class="model_filter-clear">
-            <div class="model_filter-clear-text">Clear Filters</div>
-            <img class="model_filter-clear-icon" src="./images/icons/icon-cross.svg" />
-        </div>
-    </div>
+    <?php  include_once $_SERVER['DOCUMENT_ROOT'] . '/inc/filter.php'; ?>
 
 <!-- Submenu -->
-     <div class="main-submenu_main">
-        <div class="main-submenu_buttons">
-            <img class="main-submenu_icon" src="./images/icons/arrow.svg" />
-        </div>
-        <div class="main-submenu_content">
-            <div class="main-submenu_item">
-                <div class="main-submenu_text">Outcall</div>
-            </div>
-            <div class="main-submenu_item2">
-                <div class="main-submenu_text">Incall</div>
-            </div>
-            <div class="main-submenu_item3">
-                <div class="main-submenu_text">69 position</div>
-            </div>
-            <div class="main-submenu_item4">
-                <div class="main-submenu_text">Anal</div>
-            </div>
-            <div class="main-submenu_item5">
-                <div class="main-submenu_text">BDSM - Femdom</div>
-            </div>
-            <div class="main-submenu_item6">
-                <div class="main-submenu_text">Bondage</div>
-            </div>
-            <div class="main-submenu_item7">
-                <div class="main-submenu_text">Casual photos</div>
-            </div>
-            <div class="main-submenu_item8">
-                <div class="main-submenu_text">Classic vaginal sex</div>
-            </div>
-            <div class="main-submenu_item9">
-                <div class="main-submenu_text">Couples</div>
-            </div>
-            <div class="main-submenu_item10">
-                <div class="main-submenu_text">Cum in face</div>
-            </div>
-            <div class="main-submenu_item11">
-                <div class="main-submenu_text">Cum on body</div>
-            </div>
-<!--            <div class="main-submenu_rectangle1"></div>-->
-<!--            <div class="main-submenu_rectangle2"></div>-->
-        </div>
-        <div class="main-submenu_buttons2">
-            <img class="main-submenu_icon2" src="./images/icons/arrow.svg" />
-        </div>
-    </div>
+    <?php  include_once $_SERVER['DOCUMENT_ROOT'] . '/inc/index-submenu.php'; ?>
 
 <!-- Grid -->
     <?php  include_once $_SERVER['DOCUMENT_ROOT'] . '/inc/big-models-grid.php'; ?>
-
-
 
 </div>
 
