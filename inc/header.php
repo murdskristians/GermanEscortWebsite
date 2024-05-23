@@ -127,13 +127,13 @@
         </div>
     </div>
     <div class="profile-links">
-        <div class="profile-link-item">
+        <a class="profile-link-item" href="../pages/wallet_view.php">
             <img class="profile-link-icon" src="../images/icons/icon-wallet.svg" />
             <div class="profile-link-text">
                 <div class="profile-link-label">Your wallet</div>
                 <img class="profile-arrow" src="../images/icons/arrow.svg" />
             </div>
-        </div>
+        </a>
         <div class="profile-link-item">
             <img class="profile-link-icon" src="../images/icons/icon-conditions.svg" />
             <div class="profile-link-text">
@@ -141,13 +141,13 @@
                 <img class="profile-arrow" src="../images/icons/arrow.svg" />
             </div>
         </div>
-        <div class="profile-link-item">
+        <a class="profile-link-item" href="../pages/all_cities.php">
             <img class="profile-link-icon" src="../images/icons/icon-cities.svg" />
             <div class="profile-link-text">
                 <div class="profile-link-label">Cities</div>
                 <img class="profile-arrow" src="../images/icons/arrow.svg" />
             </div>
-        </div>
+        </a>
         <div class="profile-link-item">
             <img class="profile-link-icon" src="../images/icons/icon-faq.svg" />
             <div class="profile-link-text">
