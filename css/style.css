@@ -56,6 +56,166 @@
     border-radius: 10px; /* Match the border radius */
 }
 
+/* Registration page */
+
+.registration_page-section,
+.registration_page-section * {
+    box-sizing: border-box;
+}
+.registration_page-section {
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.registration_page-section-title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    flex-shrink: 0;
+    max-width: 864px;
+    position: relative;
+}
+.registration_page-heading {
+    color: var(--white, #ffffff);
+    text-align: center;
+    font-family: var(--h2-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h2-font-size, 48px);
+    line-height: var(--h2-line-height, 120%);
+    font-weight: var(--h2-font-weight, 700);
+    position: relative;
+    align-self: stretch;
+}
+.registration_page-list {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    flex-shrink: 0;
+    max-width: 864px;
+    position: relative;
+    overflow: hidden;
+}
+.registration_page-photo-box {
+    background: linear-gradient(to left, #131217, #131217);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+.registration_page-list2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    flex-shrink: 0;
+    max-width: 864px;
+    position: relative;
+    overflow: hidden;
+}
+.registration_page-eurogirlsescort-requests-access {
+    text-align: center;
+    font-family: var(--h4-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h4-font-size, 32px);
+    line-height: var(--h4-line-height, 120%);
+    font-weight: var(--h4-font-weight, 700);
+    position: relative;
+    align-self: stretch;
+}
+.registration_page-eurogirlsescort-title {
+    color: var(--red, #cb2524);
+    font-family: var(--h4-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h4-font-size, 32px);
+    line-height: var(--h4-line-height, 120%);
+    font-weight: var(--h4-font-weight, 700);
+}
+.registration_page-eurogirlsescort-details {
+    color: #ffffff;
+    font-family: var(--h4-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h4-font-size, 32px);
+    line-height: var(--h4-line-height, 120%);
+    font-weight: var(--h4-font-weight, 700);
+}
+.registration_page-content-button {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--light-gray-v1, #362e35);
+    border-width: 2px;
+    padding: 12px 24px 12px 28px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.registration_page-group-icon {
+    flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    overflow: visible;
+    align-self: center;
+    transform: rotateZ(180deg);
+}
+.registration_page-button-text {
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: var(--b3-font-family, "IbmPlexSans-Regular", sans-serif);
+    font-size: var(--b3-font-size, 16px);
+    line-height: var(--b3-line-height, 150%);
+    font-weight: var(--b3-font-weight, 400);
+    position: relative;
+}
+.registration_page-content-button2 {
+    background: var(--light-gray-v1, #362e35);
+    border-radius: 10px;
+    padding: 12px 28px 12px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.registration_page-button-text2 {
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 600;
+    position: relative;
+}
+.registration_page-group-icon2 {
+    flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    overflow: visible;
+    align-self: center;
+}
+
 /* One model */
 .one_model-services-app,
 .one_model-services-app * {
@@ -1120,6 +1280,88 @@
     z-index: 3;
     right: 20px;
 }
+
+/* Language Pop-up Styles */
+.language-popup,
+.language-popup * {
+    box-sizing: border-box;
+}
+
+.language-popup {
+    background: var(--deep-black, #100f14);
+    border-radius: 10px;
+    padding: 12px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 145px;
+    z-index: 3;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.language-option {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.country-flag,
+.flag-icon {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    overflow: hidden;
+}
+
+.country-icon,
+.country-icon-overlay {
+    width: 96.56%;
+    height: 96.56%;
+    position: absolute;
+    right: 1.72%;
+    left: 1.72%;
+    bottom: 1.72%;
+    top: 1.72%;
+    overflow: visible;
+}
+
+.language-code {
+    flex-shrink: 0;
+    width: 34px;
+    height: 24px;
+    position: relative;
+}
+
+.code {
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+}
+
 .profile-header {
     display: flex;
     flex-direction: row;

@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="menu-box2">
-            <div class="main-menu-buttons2">
+            <div class="main-menu-buttons2" data-target="language-popup" >
                 <div class="ico-country-c-united-kingdom">
                     <img class="vector" src="/images/icons/flags/ico-country-c-united%20kingdom.svg" />
                 </div>
@@ -104,12 +104,12 @@
         <img class="profile-menu-button" src="../images/icons/icon-profile-white.svg" />
     </div>
     <div class="profile-content">
-        <div class="profile-section">
+        <a class="profile-section" href="../pages/registration_page.php">
             <div class="profile-photo">
                 <img src="../images/icons/icon-sign-up.svg" />
             </div>
             <div class="profile-signup">Sign Up</div>
-        </div>
+        </a>
         <div class="profile-section">
             <div class="profile-photo">
                 <img src="../images/icons/icon-log-in.svg" />
@@ -158,5 +158,46 @@
     </div>
 </div>
 
+<!-- Pop Up "Language" -->
+<div class="language-popup" id="language-popup" style="display: none">
+    <div class="language">
+        <div class="language-option">
+            <img class="country-flag" src="../images/icons/flags/ico-country-c-latvia.svg" />
+            <div class="language-code">
+                <div class="code">Lv</div>
+            </div>
+        </div>
+        <div class="language-option">
+            <img class="country-flag" src="../images/icons/flags/ico-country-c-estonia.svg" />
+            <div class="language-code">
+                <div class="code">Ee</div>
+            </div>
+        </div>
+        <div class="language-option">
+            <img class="country-flag" src="../images/icons/flags/ico-country-c-russia.svg" />
+            <div class="language-code">
+                <div class="code">Ru</div>
+            </div>
+        </div>
+        <div class="language-option">
+            <img class="country-flag" src="../images/icons/flags/ico-country-c-lithuania.svg" />
+            <div class="language-code">
+                <div class="code">Lt</div>
+            </div>
+        </div>
+        <div class="language-option">
+            <img class="country-flag" src="../images/icons/flags/ico-country-c-united%20kingdom.svg" />
+            <div class="language-code">
+                <div class="code">En</div>
+            </div>
+        </div>
+        <div class="language-option">
+            <img class="country-flag" src="../images/icons/flags/ico-country-c-finland.svg" />
+            <div class="language-code">
+                <div class="code">Fi</div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="/js/header-pop-up.js"></script>
