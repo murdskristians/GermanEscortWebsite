@@ -40,19 +40,21 @@
         <div class="menu-box2">
             <div class="main-menu-buttons2">
                 <div class="ico-country-c-united-kingdom">
-                    <img class="vector" src="/images/icons/icon-country-unitedkingdom.png" />
+                    <img class="vector" src="/images/icons/flags/ico-country-c-united%20kingdom.svg" />
                 </div>
                 <div class="eng" id="language-text">ENG</div>
                 <img class="group-1171273540" src="/images/icons/arrow.svg" />
             </div>
-            <img class="main-menu-buttons3" src="/images/icons/icon-profile.svg" />
+            <img class="main-menu-buttons3"  data-target="profile-pop-up2" src="/images/icons/icon-profile.svg" />
         </div>
         <button class="header__mobile-btn" id="mobile_menu_open_btn">
             <div class="header__mobile-btn__line" id="mobile_menu_open_btn_midline"></div>
         </button>
     </div>
 </div>
-<!-- Pop Up -->
+
+<!-- All pop-ups -->
+<!-- Pop Up "More" -->
 <div class="more-options-pop-up-modal" id="profile-pop-up" style="display: none">
     <div class="more-options-pop-up_base">
         <div class="more-options-pop-up_frame">
@@ -90,6 +92,67 @@
                     <div class="more-options-pop-up_text">Sexual Wellness</div>
                     <img class="more-options-pop-up_arrow" src="../images/icons/arrow.svg" />
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pop Up "Profile" -->
+<div class="profile-popup" id="profile-pop-up2" style="display: none">
+    <div class="profile-header">
+        <div class="profile-id">ID: 92523434</div>
+        <img class="profile-menu-button" src="../images/icons/icon-profile-white.svg" />
+    </div>
+    <div class="profile-content">
+        <div class="profile-section">
+            <div class="profile-photo">
+                <img src="../images/icons/icon-sign-up.svg" />
+            </div>
+            <div class="profile-signup">Sign Up</div>
+        </div>
+        <div class="profile-section">
+            <div class="profile-photo">
+                <img src="../images/icons/icon-log-in.svg" />
+            </div>
+            <div class="profile-login">Log In</div>
+        </div>
+        <div class="profile-section">
+            <div class="profile-photo">
+                <img src="../images/icons/icon-liked-videos.svg" />
+            </div>
+            <div class="profile-new-badge">
+                <div class="new-label">NEW</div>
+            </div>
+            <div class="profile-liked-videos">Liked Videos</div>
+        </div>
+    </div>
+    <div class="profile-links">
+        <div class="profile-link-item">
+            <img class="profile-link-icon" src="../images/icons/icon-wallet.svg" />
+            <div class="profile-link-text">
+                <div class="profile-link-label">Your wallet</div>
+                <img class="profile-arrow" src="../images/icons/arrow.svg" />
+            </div>
+        </div>
+        <div class="profile-link-item">
+            <img class="profile-link-icon" src="../images/icons/icon-conditions.svg" />
+            <div class="profile-link-text">
+                <div class="profile-link-label">Referral bonus</div>
+                <img class="profile-arrow" src="../images/icons/arrow.svg" />
+            </div>
+        </div>
+        <div class="profile-link-item">
+            <img class="profile-link-icon" src="../images/icons/icon-cities.svg" />
+            <div class="profile-link-text">
+                <div class="profile-link-label">Cities</div>
+                <img class="profile-arrow" src="../images/icons/arrow.svg" />
+            </div>
+        </div>
+        <div class="profile-link-item">
+            <img class="profile-link-icon" src="../images/icons/icon-faq.svg" />
+            <div class="profile-link-text">
+                <div class="profile-link-label">FAQ</div>
+                <img class="profile-arrow" src="../images/icons/arrow.svg" />
             </div>
         </div>
     </div>

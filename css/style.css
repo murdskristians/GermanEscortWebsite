@@ -1098,10 +1098,198 @@
 #profile-pop-up {
     position: absolute;
     top: 80px;
-    z-index: 1;
+    z-index: 3;
     color: white;
-    right: 298px;
+    right: 230px;
     font-family: "WorkSans-Medium", sans-serif;
+}
+.profile-popup,
+.profile-popup * {
+    box-sizing: border-box;
+}
+.profile-popup {
+    background: var(--deep-black, #100f14);
+    border-radius: 10px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    z-index: 3;
+    right: 20px;
+}
+.profile-header {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    padding-bottom: 36px;
+}
+.profile-id {
+    color: var(--white, #ffffff);
+    text-align: right;
+    font-family: var(--b1-font-family, "IbmPlexSans-Regular", sans-serif);
+    font-size: var(--b1-font-size, 20px);
+    line-height: var(--b1-line-height, 150%);
+    font-weight: var(--b1-font-weight, 400);
+    position: relative;
+    flex: 1;
+}
+.profile-menu-button {
+    border-radius: 10px;
+    padding: 10px 19px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 55px;
+    height: 41px;
+    position: relative;
+    overflow: visible;
+}
+.profile-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    padding-bottom: 36px;
+    gap: 56px;
+}
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.profile-photo {
+    border-radius: 30px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    overflow: visible;
+    background: #23212B;
+}
+.profile-signup {
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: "WorkSans-Medium", sans-serif;
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 500;
+    position: relative;
+}
+.profile-login {
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: "WorkSans-Medium", sans-serif;
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 500;
+    position: relative;
+}
+.profile-new-badge {
+    background: var(--red, #cb2524);
+    border-radius: 5px;
+    padding: 2px 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: absolute;
+    left: 19px;
+    top: -8px;
+}
+.new-label {
+    color: #ffffff;
+    text-align: left;
+    font-family: "WorkSans-Bold", sans-serif;
+    font-size: 7px;
+    line-height: 150%;
+    font-weight: 700;
+    position: relative;
+}
+.profile-liked-videos {
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: "WorkSans-Medium", sans-serif;
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 500;
+    position: relative;
+}
+.profile-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.profile-link-item {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.profile-link-icon {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    overflow: visible;
+}
+.profile-link-text {
+    padding: 0 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.profile-link-label {
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: "WorkSans-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    position: relative;
+}
+.profile-arrow {
+    flex-shrink: 0;
+    width: 11.41px;
+    height: 11.41px;
+    position: relative;
+    overflow: visible;
 }
 
 /* Footer */
