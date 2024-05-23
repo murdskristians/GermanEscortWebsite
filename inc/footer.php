@@ -2,9 +2,9 @@
     <div class="footer-section">
         <div class="section-title">
             <div class="column">
-                <div class="link">
+                <a class="link" href="../pages/about_us_page.php">
                     <div class="link-one">About Us</div>
-                </div>
+                </a>
                 <div class="link">
                     <div class="link-one">Terms and Conditions</div>
                 </div>
