@@ -5,18 +5,18 @@
                 <a class="link" href="../pages/about_us_page.php">
                     <div class="link-one">About Us</div>
                 </a>
-                <div class="link">
+                <a class="link" href="../pages/terms_and_conditions_page.php">
                     <div class="link-one">Terms and Conditions</div>
-                </div>
+                </a>
                 <div class="link">
                     <div class="link-one">Advertise</div>
                 </div>
                 <div class="link">
                     <div class="link-one">Discover</div>
                 </div>
-                <div class="link">
+                <a class="link" href="../pages/faq_page.php">
                     <div class="link-one">FAQ</div>
-                </div>
+                </a>
             </div>
             <div class="logos">
                 <img class="solid" src="../images/icons/icon-social-x.svg" />
