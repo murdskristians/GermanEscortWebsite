@@ -26,18 +26,18 @@
 <div class="common-main-section">
     <div class="join_step_1-section">
 
-        <div class="join_step_1-title">
-            <h1 class="join_step_1-heading">Join the team</h1>
-            <div class="join_step_1-steps">
-                <div class="join_step_1-step active">
+        <div class="join_step-title">
+            <h1 class="join_step-heading">Join the team</h1>
+            <div class="join_step-steps">
+                <div class="join_step-one_step active">
                     <span>1</span>
                 </div>
-                <img class="join_step_1-arrow" src="../images/icons/icon-join_our_team-join.svg" alt="join"/>
-                <div class="join_step_1-step">
+                <img class="join_steps-arrow" src="../images/icons/icon-join_our_team-join.svg" alt="join"/>
+                <div class="join_step-one_step">
                     <span>2</span>
                 </div>
-                <img class="join_step_1-arrow" src="../images/icons/icon-join_our_team-join.svg" alt="join"/>
-                <div class="join_step_1-step">
+                <img class="join_steps-arrow" src="../images/icons/icon-join_our_team-join.svg" alt="join"/>
+                <div class="join_step-one_step">
                     <span>3</span>
                 </div>
             </div>

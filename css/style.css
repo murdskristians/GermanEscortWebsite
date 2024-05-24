@@ -947,7 +947,7 @@
     align-items: center;
     width: 100%;
 }
-.join_step_1-title {
+.join_step-title {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -955,7 +955,7 @@
     width: 100%;
     max-width: 864px;
 }
-.join_step_1-heading {
+.join_step-heading {
     color: #ffffff;
     text-align: center;
     font-family: "IbmPlexSans-Bold", sans-serif;
@@ -964,14 +964,14 @@
     font-weight: 700;
     width: 100%;
 }
-.join_step_1-steps {
+.join_step-steps {
     display: flex;
     gap: 24px;
     align-items: center;
     width: 100%;
     justify-content: center;
 }
-.join_step_1-step.active {
+.join_step-one_step.active {
     background: #cb2524;
     border-radius: 50px;
     display: flex;
@@ -980,7 +980,7 @@
     width: 50px;
     height: 50px;
 }
-.join_step_1-step {
+.join_step-one_step {
     background: var(--deep-black, #100f14);
     border-radius: 50px;
     display: flex;
@@ -993,14 +993,14 @@
     height: 50px;
     position: relative;
 }
-.join_step_1-step.active span {
+.join_step-one_step.active span {
     color: #ffffff;
     font-family: "IbmPlexSans-Bold", sans-serif;
     font-size: 32px;
     line-height: 120%;
     font-weight: 700;
 }
-.join_step_1-step span {
+.join_step-one_step span {
     color: var(--red, #cb2524);
     text-align: left;
     font-family: var(--h4-font-family, "IbmPlexSans-Bold", sans-serif);
@@ -1012,7 +1012,7 @@
     align-items: center;
     justify-content: flex-start;
 }
-.join_step_1-arrow {
+.join_steps-arrow {
     width: 56px;
     height: auto;
 }
@@ -1172,9 +1172,238 @@
     color: white;
 }
 
-#join_our_team_step1_back {
+#join_our_team_step1_back, #join_our_team_step2_back {
     transform: rotateZ(180deg);
 }
+
+/* Join step 2 */
+.join_step_2-content-block,
+.join_step_2-content-block * {
+    box-sizing: border-box;
+}
+.join_step_2-content-block {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    width: 100%;
+}
+.join_step_2-section {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+    width: 100%;
+}
+.join_step_2-section-title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 864px;
+}
+.join_step_2-heading {
+    color: #ffffff;
+    text-align: center;
+    font-family: "IbmPlexSans-Bold", sans-serif;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+    width: 100%;
+}
+.join_step_2-steps {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.join_step_2-step {
+    background: #100f14;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+.join_step_2-step.active {
+    background: #cb2524;
+}
+.join_step_2-step-number {
+    color: #cb2524;
+    font-family: "IbmPlexSans-Bold", sans-serif;
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 700;
+}
+.join_step_2-step.active .join_step_2-step-number {
+    color: #ffffff;
+}
+.join_step_2-arrow {
+    width: 56px;
+}
+.join_step_2-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+    max-width: 864px;
+}
+.join_step_2-subheading {
+    color: #ffffff;
+    font-family: "IbmPlexSans-Bold", sans-serif;
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 700;
+    width: 100%;
+}
+.join_step_2-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+.join_step_2-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.join_step_2-field {
+    border-radius: 10px;
+    border: 2px solid #362e35;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 280px;
+    justify-content: space-between;
+}
+.join_step_2-label {
+    color: #ffffff;
+    font-family: "IbmPlexSans-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+}
+.join_step_2-icon {
+    width: 21px;
+    height: 20px;
+}
+.join_step_2-color-options {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 864px;
+}
+.join_step_2-color-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.join_step_2-color-item {
+    border-radius: 10px;
+    border: 2px solid #362e35;
+    padding: 10px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.join_step_2-color-label {
+    color: #ffffff;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 600;
+}
+.join_step_2-photo-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 864px;
+}
+.join_step_2-photo-options {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+}
+.join_step_2-photo-box {
+    background: linear-gradient(to left, #131217, #131217);
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.join_step_2-photo-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.join_step_2-action {
+    border-radius: 10px;
+    border: 2px solid #362e35;
+    padding: 10px 26px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.join_step_2-action-label {
+    color: #ffffff;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 600;
+}
+.join_step_2-action-icon {
+    width: 11.31px;
+    height: 11.31px;
+}
+.join_step_2-navigation {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    max-width: 864px;
+}
+.join_step_2-button-group {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+.join_step_2-button {
+    border-radius: 10px;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.join_step_2-back-button {
+    border: 2px solid #362e35;
+}
+.join_step_2-next-button {
+    background: #362e35;
+}
+.join_step_2-button-label {
+    color: #ffffff;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 600;
+}
+.join_step_2-button-icon {
+    width: 11.41px;
+    height: 11.41px;
+}
+
 /* One model */
 .one_model-services-app,
 .one_model-services-app * {
