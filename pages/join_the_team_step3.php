@@ -238,7 +238,7 @@
                         <img class="join_step-back-icon" src="../images/icons/arrow.svg" id="join_our_team_step1_back"/>
                         <span>Back</span>
                     </a>
-                    <a class="join_step-button join_step-button-next">
+                    <a class="join_step-button join_step-button-next" href="./congratulations_page.php">
                         <span>Continue</span>
                         <img class="join_step-next-icon" src="../images/icons/arrow.svg" />
                     </a>

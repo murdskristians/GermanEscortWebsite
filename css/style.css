@@ -802,6 +802,90 @@
     align-self: stretch;
 }
 
+/* Congratulations page */
+.congratulations_page-section,
+.congratulations_page-section * {
+    box-sizing: border-box;
+}
+.congratulations_page-section {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+    width: 100%;
+}
+.congratulations_page-section-title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 864px;
+}
+.congratulations_page-heading {
+    color: #ffffff;
+    text-align: center;
+    font-family: "IbmPlexSans-Bold", sans-serif;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+    width: 100%;
+}
+.congratulations_page-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+    max-width: 864px;
+}
+.congratulations_page-terms {
+    color: #ffffff;
+    text-align: left;
+    font-family: "IbmPlexSans-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 400;
+    width: 100%;
+}
+.congratulations_page-navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 864px;
+}
+.congratulations_page-button-group {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+.congratulations_page-button {
+    background: #362e35;
+    border-radius: 10px;
+    padding: 12px 28px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.congratulations_page-button-label {
+    color: #ffffff;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 600;
+}
+.congratulations_page-button-icon {
+    width: 11.41px;
+    height: 11.41px;
+}
+
+
 /* Join the team */
 article.join_us_page-column > div > ul > li > a{
     color: white;
