@@ -86,7 +86,7 @@
                     <img class="more-options-pop-up_arrow" src="../images/icons/arrow.svg" />
                 </div>
             </a>
-            <a class="more-options-pop-up_item" href="../pages/sexual_wellness.php">
+            <a class="more-options-pop-up_item" href="../pages/all_sexual_wellness.php">
                 <img class="more-options-pop-up_icon" src="../images/icons/icon-health.svg" />
                 <div class="more-options-pop-up_link">
                     <div class="more-options-pop-up_text">Sexual Wellness</div>
