@@ -8,9 +8,9 @@
                 <a class="link" href="../pages/terms_and_conditions_page.php">
                     <div class="link-one">Terms and Conditions</div>
                 </a>
-                <div class="link">
+                <a class="link" href="../pages/join_the_team_page.php">
                     <div class="link-one">Advertise</div>
-                </div>
+                </a>
                 <div class="link">
                     <div class="link-one">Discover</div>
                 </div>
