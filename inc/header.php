@@ -72,7 +72,7 @@
                     <img class="more-options-pop-up_arrow" src="../images/icons/arrow.svg" />
                 </div>
             </a>
-            <a class="more-options-pop-up_item">
+            <a class="more-options-pop-up_item" href="../pages/shorties_page.php">
                 <img class="more-options-pop-up_icon" src="../images/icons/icon-shorts.svg" />
                 <div class="more-options-pop-up_link">
                     <div class="more-options-pop-up_text">Shorties</div>
