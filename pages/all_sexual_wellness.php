@@ -38,7 +38,7 @@
         </div>
         <div class="sexual_wellness-articles">
             <div class="sexual_wellness-list2">
-                <div class="sexual_wellness-news-box">
+                <a class="sexual_wellness-news-box" href="./one_sexual_wellness.php">
                     <img class="sexual_wellness-photo-box" src="../images/sexual_wellness1.png" />
                     <div class="sexual_wellness-article-content">
                         <div class="sexual_wellness-article-title">
@@ -49,8 +49,8 @@
                             <div class="sexual_wellness-date">March 8, 2024</div>
                         </div>
                     </div>
-                </div>
-                <div class="sexual_wellness-news-box">
+                </a>
+                <a class="sexual_wellness-news-box" href="./one_sexual_wellness.php">
                     <img class="sexual_wellness-photo-box" src="../images/sexual_wellness2.png" />
                     <div class="sexual_wellness-article-content">
                         <div class="sexual_wellness-article-title">Who Gave Me Herpes?</div>
@@ -58,8 +58,8 @@
                             <div class="sexual_wellness-date">March 8, 2024</div>
                         </div>
                     </div>
-                </div>
-                <div class="sexual_wellness-news-box">
+                </a>
+                <a class="sexual_wellness-news-box" href="./one_sexual_wellness.php">
                     <img class="sexual_wellness-photo-box" src="../images/sexual_wellness3.png" />
                     <div class="sexual_wellness-article-content">
                         <div class="sexual_wellness-article-title">
@@ -69,8 +69,8 @@
                             <div class="sexual_wellness-date">March 8, 2024</div>
                         </div>
                     </div>
-                </div>
-                <div class="sexual_wellness-news-box">
+                </a>
+                <a class="sexual_wellness-news-box" href="./one_sexual_wellness.php">
                     <img class="sexual_wellness-photo-box" src="../images/sexual_wellness4.png" />
                     <div class="sexual_wellness-article-content">
                         <div class="sexual_wellness-article-title">
@@ -80,10 +80,10 @@
                             <div class="sexual_wellness-date">March 8, 2024</div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="sexual_wellness-list2">
-                <div class="sexual_wellness-news-box">
+                <a class="sexual_wellness-news-box" href="./one_sexual_wellness.php">
                     <img class="sexual_wellness-photo-box" src="../images/sexual_wellness5.png" />
                     <div class="sexual_wellness-article-content">
                         <div class="sexual_wellness-article-title">Who Gave Me Herpes?</div>
@@ -91,8 +91,8 @@
                             <div class="sexual_wellness-date">March 8, 2024</div>
                         </div>
                     </div>
-                </div>
-                <div class="sexual_wellness-news-box">
+                </a>
+                <a class="sexual_wellness-news-box" href="./one_sexual_wellness.php">
                     <img class="sexual_wellness-photo-box" src="../images/sexual_wellness4.png" />
                     <div class="sexual_wellness-article-content">
                         <div class="sexual_wellness-article-title">
@@ -102,8 +102,8 @@
                             <div class="sexual_wellness-date">March 8, 2024</div>
                         </div>
                     </div>
-                </div>
-                <div class="sexual_wellness-news-box">
+                </a>
+                <a class="sexual_wellness-news-box" href="./one_sexual_wellness.php">
                     <img class="sexual_wellness-photo-box" src="../images/sexual_wellness3.png" />
                     <div class="sexual_wellness-article-content">
                         <div class="sexual_wellness-article-title">
@@ -114,8 +114,8 @@
                             <div class="sexual_wellness-date">March 8, 2024</div>
                         </div>
                     </div>
-                </div>
-                <div class="sexual_wellness-news-box">
+                </a>
+                <a class="sexual_wellness-news-box" href="./one_sexual_wellness.php">
                     <img class="sexual_wellness-photo-box" src="../images/sexual_wellness1.png" />
                     <div class="sexual_wellness-article-content">
                         <div class="sexual_wellness-article-title">
@@ -125,10 +125,10 @@
                             <div class="sexual_wellness-date">March 8, 2024</div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="sexual_wellness-list2">
-                <div class="sexual_wellness-news-box">
+                <a class="sexual_wellness-news-box" href="./one_sexual_wellness.php">
                     <img class="sexual_wellness-photo-box" src="../images/sexual_wellness5.png" />
                     <div class="sexual_wellness-article-content">
                         <div class="sexual_wellness-article-title">
@@ -138,8 +138,8 @@
                             <div class="sexual_wellness-date">March 8, 2024</div>
                         </div>
                     </div>
-                </div>
-                <div class="sexual_wellness-news-box">
+                </a>
+                <a class="sexual_wellness-news-box" href="./one_sexual_wellness.php">
                     <img class="sexual_wellness-photo-box" src="../images/sexual_wellness2.png" />
                     <div class="sexual_wellness-article-content">
                         <div class="sexual_wellness-article-title">
@@ -150,8 +150,8 @@
                             <div class="sexual_wellness-date">March 8, 2024</div>
                         </div>
                     </div>
-                </div>
-                <div class="sexual_wellness-news-box">
+                </a>
+                <a class="sexual_wellness-news-box" href="./one_sexual_wellness.php">
                     <img class="sexual_wellness-photo-box" src="../images/sexual_wellness4.png" />
                     <div class="sexual_wellness-article-content">
                         <div class="sexual_wellness-article-title">
@@ -161,8 +161,8 @@
                             <div class="sexual_wellness-date">March 8, 2024</div>
                         </div>
                     </div>
-                </div>
-                <div class="sexual_wellness-news-box">
+                </a>
+                <a class="sexual_wellness-news-box" href="./one_sexual_wellness.php">
                     <img class="sexual_wellness-photo-box" src="../images/sexual_wellness2.png" />
                     <div class="sexual_wellness-article-content">
                         <div class="sexual_wellness-article-title">Who Gave Me Herpes?</div>
@@ -170,7 +170,7 @@
                             <div class="sexual_wellness-date">March 8, 2024</div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
 
