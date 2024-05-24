@@ -58,41 +58,41 @@
 <div class="more-options-pop-up-modal" id="profile-pop-up" style="display: none">
     <div class="more-options-pop-up_base">
         <div class="more-options-pop-up_frame">
-            <div class="more-options-pop-up_item">
+            <a class="more-options-pop-up_item" href="../pages/all_cities.php">
                 <img class="more-options-pop-up_icon" src="../images/icons/icon-house.svg" />
                 <div class="more-options-pop-up_link">
                     <div class="more-options-pop-up_text">Place for date</div>
                     <img class="more-options-pop-up_arrow" src="../images/icons/arrow.svg" />
                 </div>
-            </div>
-            <div class="more-options-pop-up_item">
+            </a>
+            <a class="more-options-pop-up_item" href="../pages/liked_models.php">
                 <img class="more-options-pop-up_icon" src="../images/icons/icon-hearth-full.svg" />
                 <div class="more-options-pop-up_link">
                     <div class="more-options-pop-up_text">Liked</div>
                     <img class="more-options-pop-up_arrow" src="../images/icons/arrow.svg" />
                 </div>
-            </div>
-            <div class="more-options-pop-up_item">
+            </a>
+            <a class="more-options-pop-up_item">
                 <img class="more-options-pop-up_icon" src="../images/icons/icon-shorts.svg" />
                 <div class="more-options-pop-up_link">
                     <div class="more-options-pop-up_text">Shorties</div>
                     <img class="more-options-pop-up_arrow" src="../images/icons/arrow.svg" />
                 </div>
-            </div>
-            <div class="more-options-pop-up_item">
+            </a>
+            <a class="more-options-pop-up_item" href="../pages/terms_and_conditions_page.php">
                 <img class="more-options-pop-up_icon" src="../images/icons/icon-conditions.svg" />
                 <div class="more-options-pop-up_link">
                     <div class="more-options-pop-up_text">Terms and Conditions</div>
                     <img class="more-options-pop-up_arrow" src="../images/icons/arrow.svg" />
                 </div>
-            </div>
-            <div class="more-options-pop-up_item">
+            </a>
+            <a class="more-options-pop-up_item" href="../pages/sexual_wellness.php">
                 <img class="more-options-pop-up_icon" src="../images/icons/icon-health.svg" />
                 <div class="more-options-pop-up_link">
                     <div class="more-options-pop-up_text">Sexual Wellness</div>
                     <img class="more-options-pop-up_arrow" src="../images/icons/arrow.svg" />
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 </div>
@@ -110,13 +110,13 @@
             </div>
             <div class="profile-signup">Sign Up</div>
         </a>
-        <div class="profile-section">
+        <a class="profile-section">
             <div class="profile-photo">
                 <img src="../images/icons/icon-log-in.svg" />
             </div>
             <div class="profile-login">Log In</div>
-        </div>
-        <div class="profile-section">
+        </a>
+        <a class="profile-section">
             <div class="profile-photo">
                 <img src="../images/icons/icon-liked-videos.svg" />
             </div>
@@ -124,7 +124,7 @@
                 <div class="new-label">NEW</div>
             </div>
             <div class="profile-liked-videos">Liked Videos</div>
-        </div>
+        </a>
     </div>
     <div class="profile-links">
         <a class="profile-link-item" href="../pages/wallet_view.php">
@@ -134,13 +134,13 @@
                 <img class="profile-arrow" src="../images/icons/arrow.svg" />
             </div>
         </a>
-        <div class="profile-link-item">
+        <a class="profile-link-item">
             <img class="profile-link-icon" src="../images/icons/icon-conditions.svg" />
             <div class="profile-link-text">
                 <div class="profile-link-label">Referral bonus</div>
                 <img class="profile-arrow" src="../images/icons/arrow.svg" />
             </div>
-        </div>
+        </a>
         <a class="profile-link-item" href="../pages/all_cities.php">
             <img class="profile-link-icon" src="../images/icons/icon-cities.svg" />
             <div class="profile-link-text">
@@ -148,13 +148,13 @@
                 <img class="profile-arrow" src="../images/icons/arrow.svg" />
             </div>
         </a>
-        <div class="profile-link-item">
+        <a class="profile-link-item" href="../pages/faq_page.php">
             <img class="profile-link-icon" src="../images/icons/icon-faq.svg" />
             <div class="profile-link-text">
                 <div class="profile-link-label">FAQ</div>
                 <img class="profile-arrow" src="../images/icons/arrow.svg" />
             </div>
-        </div>
+        </a>
     </div>
 </div>
 

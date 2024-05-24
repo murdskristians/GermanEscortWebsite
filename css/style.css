@@ -801,6 +801,180 @@
     position: relative;
     align-self: stretch;
 }
+/* Sexual welness */
+.sexual_wellness-section {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+    width: 100%;
+}
+.sexual_wellness-section-title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+    max-width: 864px;
+}
+.sexual_wellness-heading {
+    color: #ffffff;
+    text-align: center;
+    font-family: "IbmPlexSans-Bold", sans-serif;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+    width: 100%;
+}
+.sexual_wellness-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    width: 100%;
+    max-width: 864px;
+    overflow: hidden;
+}
+.sexual_wellness-intro {
+    color: #ffffff;
+    text-align: center;
+    font-family: "IbmPlexSans-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 400;
+    width: 100%;
+}
+.sexual_wellness-articles {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    width: 100%;
+}
+.sexual_wellness-list2 {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+}
+.sexual_wellness-news-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    flex: 1;
+    min-width: 280px;
+    max-width: 640px;
+    overflow: hidden;
+}
+.sexual_wellness-photo-box {
+    border-radius: 10px;
+    flex-shrink: 0;
+    height: 306px;
+    width: 100%;
+    object-fit: cover;
+}
+.sexual_wellness-article-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    width: 100%;
+}
+.sexual_wellness-article-title {
+    color: #ffffff;
+    text-align: left;
+    font-family: "IbmPlexSans-Bold", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 700;
+    width: 100%;
+}
+.sexual_wellness-article-date {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    width: 100%;
+}
+.sexual_wellness-date {
+    color: #362e35;
+    text-align: left;
+    font-family: "IbmPlexSans-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 400;
+}
+.sexual_wellness-pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.sexual_wellness-arrows {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+}
+.sexual_wellness-arrow-button {
+    background: #362e35;
+    border-radius: 10px;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}
+.sexual_wellness-arrow-icon {
+    width: 11.41px;
+    height: 11.41px;
+}
+.sexual_wellness-page-info {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    align-items: center;
+}
+.sexual_wellness-showing {
+    color: #cacaca;
+    text-align: left;
+    font-family: "IbmPlexSans-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 400;
+}
+.sexual_wellness-page-number {
+    border-radius: 10px;
+    border: 2px solid #100f14;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}
+.sexual_wellness-current-page {
+    color: #ffffff;
+    text-align: left;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 600;
+}
+.sexual_wellness-total-pages {
+    color: #cacaca;
+    text-align: left;
+    font-family: "IbmPlexSans-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 400;
+}
 
 /* Congratulations page */
 .congratulations_page-section,
