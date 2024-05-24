@@ -803,6 +803,9 @@
 }
 
 /* Join the team */
+article.join_us_page-column > div > ul > li > a{
+    color: white;
+}
 .join_us_page-container {
     align-items: center;
     display: flex;
@@ -1112,41 +1115,41 @@
 .join_step_1-terms-highlight {
     color: #cb2524;
 }
-.join_step_1-buttons {
+.join_steps-back-forward-buttons-wrapper {
     display: flex;
     gap: 8px;
     width: 100%;
     max-width: 864px;
 }
-.join_step_1-button-group {
+.join_step_buttons-group {
     display: flex;
     gap: 8px;
     width: 100%;
 }
-.join_step_1-button {
+.join_step-button {
     border-radius: 10px;
     display: flex;
     align-items: center;
     gap: 8px;
     padding: 12px 24px;
 }
-.join_step_1-button-back {
+.join_step-button-back {
     border: 2px solid #362e35;
 }
-.join_step_1-back-icon {
+.join_step-back-icon {
     width: 11.41px;
     height: 11.41px;
     transform: translate(-11.41px, -11.41px);
 }
-.join_step_1-button-next {
+.join_step-button-next {
     background: #362e35;
     padding: 12px 28px;
 }
-.join_step_1-next-icon {
+.join_step-next-icon {
     width: 11.41px;
     height: 11.41px;
 }
-.join_step_1-button span {
+.join_step-button span {
     color: #ffffff;
     font-family: "IbmPlexSans-Regular", sans-serif;
     font-size: 16px;
@@ -1402,6 +1405,185 @@
 .join_step_2-button-icon {
     width: 11.41px;
     height: 11.41px;
+}
+
+/* Join us 3 */
+.join_step_3-content-block {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.join_step_3-section {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+    width: 100%;
+}
+
+.join_step_3-section-title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 864px;
+}
+
+.join_step_3-heading {
+    color: #ffffff;
+    text-align: center;
+    font-family: "IbmPlexSans-Bold", sans-serif;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+    width: 100%;
+}
+
+.join_step_3-steps {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.join_step_3-step {
+    background: #100f14;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+.join_step_3-step.active {
+    background: #cb2524;
+}
+
+.join_step_3-step-number {
+    color: #cb2524;
+    font-family: "IbmPlexSans-Bold", sans-serif;
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+.join_step_3-step.active .join_step_3-step-number {
+    color: #ffffff;
+}
+
+.join_step_3-arrow {
+    width: 56px;
+}
+
+.join_step_3-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+    max-width: 864px;
+}
+
+.join_step_3-subheading {
+    color: #ffffff;
+    font-family: "IbmPlexSans-Bold", sans-serif;
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 700;
+    width: 100%;
+}
+
+.join_step_3-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.join_step_3-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.join_step_3-button-group {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 272px;
+    position: relative;
+}
+
+.join_step_3-checkbox {
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join_step_3-label {
+    color: #ffffff;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 600;
+}
+
+.join_step_3-navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 864px;
+}
+
+.join_step_3-button {
+    border-radius: 10px;
+    padding: 12px 28px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.join_step_3-back-button {
+    border: 2px solid #362e35;
+}
+
+.join_step_3-next-button {
+    background: #362e35;
+}
+
+.join_step_3-button-icon {
+    width: 11.41px;
+    height: 11.41px;
+}
+
+.join_step_3-button-label {
+    color: #ffffff;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 600;
 }
 
 /* One model */

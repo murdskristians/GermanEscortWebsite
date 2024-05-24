@@ -112,16 +112,16 @@
                     </div>
                 </div>
             </div>
-            <div class="join_step_2-navigation">
-                <div class="join_step_2-button-group">
-                    <div class="join_step_2-button join_step_2-back-button">
-                        <img class="join_step_2-button-icon" src="../images/icons/arrow.svg" id="join_our_team_step2_back"/>
-                        <span class="join_step_2-button-label">Back</span>
-                    </div>
-                    <div class="join_step_2-button join_step_2-next-button">
-                        <span class="join_step_2-button-label">Continue</span>
-                        <img class="join_step_2-button-icon" src="../images/icons/arrow.svg" />
-                    </div>
+            <div class="join_steps-back-forward-buttons-wrapper">
+                <div class="join_step_buttons-group">
+                    <a class="join_step-button join_step-button-back" href="./join_the_team_step1.php">
+                        <img class="join_step-back-icon" src="../images/icons/arrow.svg" id="join_our_team_step1_back"/>
+                        <span>Back</span>
+                    </a>
+                    <a class="join_step-button join_step-button-next" href="./join_the_team_step3.php">
+                        <span>Continue</span>
+                        <img class="join_step-next-icon" src="../images/icons/arrow.svg" />
+                    </a>
                 </div>
             </div>
         </div>

@@ -107,16 +107,16 @@
             </div>
         </div>
 
-        <div class="join_step_1-buttons">
-            <div class="join_step_1-button-group">
-                <div class="join_step_1-button join_step_1-button-back">
-                    <img class="join_step_1-back-icon" src="../images/icons/arrow.svg" id="join_our_team_step1_back"/>
+        <div class="join_steps-back-forward-buttons-wrapper">
+            <div class="join_step_buttons-group">
+                <a class="join_step-button join_step-button-back" href="./join_the_team_page.php">
+                    <img class="join_step-back-icon" src="../images/icons/arrow.svg" id="join_our_team_step1_back"/>
                     <span>Back</span>
-                </div>
-                <div class="join_step_1-button join_step_1-button-next">
+                </a>
+                <a class="join_step-button join_step-button-next" href="./join_the_team_step2.php">
                     <span>Continue</span>
-                    <img class="join_step_1-next-icon" src="../images/icons/arrow.svg" />
-                </div>
+                    <img class="join_step-next-icon" src="../images/icons/arrow.svg" />
+                </a>
             </div>
         </div>
 

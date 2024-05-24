@@ -60,10 +60,10 @@
                                     <span>Access to blacklist</span>
                                 </li>
                             </ul>
-                            <div tabindex="0" role="button" class="join_us_page-action-button">
+                            <a tabindex="0" role="button" class="join_us_page-action-button" href="join_the_team_step1.php">
                                 <span class="join_us_page-action-text">Sign up</span>
                                 <img loading="lazy" src="../images/icons/icon-join_us_page-arrow.svg" class="join_us_page-icon" alt="Join us page checkmark" />
-                            </div>
+                            </a>
                         </div>
                     </article>
                     <article class="join_us_page-column-2">
