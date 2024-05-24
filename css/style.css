@@ -1169,7 +1169,131 @@
     width: 11.41px;
     height: 11.41px;
 }
-
+/* Shorties */
+.shorties_page-section,
+.shorties_page-section * {
+    box-sizing: border-box;
+}
+.shorties_page-section {
+    padding: 0px 304px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+    width: 100%;
+}
+.shorties_page-section-title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+    max-width: 864px;
+}
+.shorties_page-heading {
+    color: #ffffff;
+    text-align: center;
+    font-family: "IbmPlexSans-Bold", sans-serif;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+    width: 100%;
+}
+.shorties_page-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    width: 100%;
+    max-width: 864px;
+}
+.shorties_page-welcome-message {
+    color: #ffffff;
+    text-align: center;
+    font-family: "IbmPlexSans-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 400;
+    width: 100%;}
+.shorties_page-content {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    width: 100%;
+}
+.shorties_page-article {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    min-width: 192px;
+    overflow: hidden;
+}
+.shorties_page-article-images {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-end;
+}
+.shorties_page-main-image {
+    border-radius: 10px;
+    padding: 8px;
+    width: 356px;
+    height: 656px;
+}
+.shorties_page-thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+}
+.shorties_page-thumbnail {
+    background: linear-gradient(to left, #131217, #131217);
+    border-radius: 10px;
+    object-fit: cover;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+}
+.shorties_page-article-details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 356px;
+}
+.shorties_page-article-title {
+    color: #ffffff;
+    text-align: left;
+    font-family: "IbmPlexSans-Bold", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 700;
+    width: 100%;
+}
+.shorties_page-more-link {
+    padding: 0 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+.shorties_page-more-text {
+    color: #cb2524;
+    text-align: left;
+    font-family: "WorkSans-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+}
+.shorties_page-arrow-icon {
+    width: 11.41px;
+    height: 11.41px;
+    overflow: visible;
+}
 
 /* Join the team */
 article.join_us_page-column > div > ul > li > a{

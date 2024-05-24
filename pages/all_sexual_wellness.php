@@ -192,8 +192,6 @@
                 <div class="models_grid-of-total">of 3</div>
             </div>
         </div>
-
-
     </div>
 
 </div>
