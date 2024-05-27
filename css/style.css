@@ -4131,6 +4131,172 @@ article.join_us_page-column > div > ul > li > a{
     overflow: visible;
 }
 
+/* Services pop up */
+.base,
+.base * {
+    box-sizing: border-box;
+}
+.base {
+    background: var(--deep-black, #100f14);
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.points {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 260px;
+    position: relative;
+}
+.point {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.available,
+.services {
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--h6-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h6-font-size, 20px);
+    line-height: var(--h6-line-height, 150%);
+    font-weight: var(--h6-font-weight, 700);
+    position: relative;
+}
+.main-menu-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.frame-190 {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: var(--white, #ffffff);
+    border-width: 2px;
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+}
+._18-20 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 600;
+    position: relative;
+}
+._143 {
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--b3-font-family, "IbmPlexSans-Regular", sans-serif);
+    font-size: var(--b3-font-size, 16px);
+    line-height: var(--b3-line-height, 150%);
+    font-weight: var(--b3-font-weight, 400);
+    position: relative;
+}
+.point2 {
+    opacity: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.filter-pop-up_base {
+    background: #100f14;
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+.filter-pop-up_points {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+.filter-pop-up_point {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.filter-pop-up_menu-button {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    cursor: pointer;
+}
+.filter-pop-up_icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+}
+.filter-pop-up_label,
+.filter-pop-up_option,
+.filter-pop-up_count {
+    color: #ffffff;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+}
+.filter-pop-up_label {
+    font-size: 20px;
+    font-weight: 700;
+}
+.filter-pop-up_option {
+    font-size: 16px;
+    font-weight: 600;
+}
+.filter-pop-up_count {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
 /* Footer */
 
 .footer-block,
@@ -5417,10 +5583,23 @@ article.join_us_page-column > div > ul > li > a{
     left: -80px;
     font-family: "IbmPlexSans-SemiBold", sans-serif;
 }
+
 #hair-pop-up-base{
     flex-direction: row;
 }
 
+#services-pop-up {
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    color: white;
+    left: 150px;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+}
+#services-pop-up .filter-pop-up_base {
+    display: flex;
+    flex-direction: row;
+}
 /* Media query for when the viewport width is less than 800px */
 @media (max-width: 1390px) {
     .header__mobile-btn {

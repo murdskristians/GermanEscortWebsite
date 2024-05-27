@@ -24,6 +24,10 @@
             <div class="model_filter-button">Height</div>
             <img class="model_filter-icon" src="../images/icons/arrow.svg" />
         </div>
+        <div class="model_filter-item" data-target="services-pop-up">
+            <div class="model_filter-button">Services</div>
+            <img class="model_filter-icon" src="../images/icons/arrow.svg" />
+        </div>
     </div>
     <div class="model_filter-clear">
         <div class="model_filter-clear-text">Clear Filters</div>
@@ -390,6 +394,129 @@
             </div>
         </div>
     </div>
+
+
+    <!-- pop-up-services -->
+    <div class="filter-pop-up-modal" id="services-pop-up" style="display: none">
+        <div class="filter-pop-up_base">
+            <div class="filter-pop-up_points">
+                <div class="filter-pop-up_point">
+                    <div class="filter-pop-up_label">Available</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Outcall</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Incall</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+            </div>
+            <div class="filter-pop-up_points">
+                <div class="filter-pop-up_point">
+                    <div class="filter-pop-up_label">Services</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">69</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Av</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Bi-games</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Big boobs</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Blonde</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Brunette</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Couples</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Dt</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Erotic massage</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+            </div>
+            <div class="filter-pop-up_points">
+<!--                <div class="filter-pop-up_point">-->
+<!--                    <div class="filter-pop-up_label">Services</div>-->
+<!--                </div>-->
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">French kissing</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Golden shower</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Home visits</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Redhead</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Rimming</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Slave models</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Squirting</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Three some</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+                <div class="filter-pop-up_menu-button">
+                    <div class="filter-pop-up_icon"></div>
+                    <div class="filter-pop-up_option">Young models</div>
+                    <div class="filter-pop-up_count">(143)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- pop-up-services end -->
 
 
 </div>
