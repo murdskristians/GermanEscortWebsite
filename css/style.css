@@ -1295,6 +1295,740 @@
     overflow: visible;
 }
 
+/* Paces for sex */
+.places_for_sex-section,
+.places_for_sex-section * {
+    box-sizing: border-box;
+}
+.places_for_sex-section {
+    padding: 0px 304px 0px 304px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-section-title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-shrink: 0;
+    max-width: 864px;
+    position: relative;
+}
+.places_for_sex-heading {
+    color: var(--white, #ffffff);
+    text-align: center;
+    font-family: var(--h2-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h2-font-size, 48px);
+    line-height: var(--h2-line-height, 120%);
+    font-weight: var(--h2-font-weight, 700);
+    position: relative;
+    align-self: stretch;
+}
+.places_for_sex-colums {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-sub-menu {
+    background: var(--deep-black, #100f14);
+    border-radius: 10px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 224px;
+    position: relative;
+    overflow: hidden;
+}
+.places_for_sex-point {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 160px;
+    position: relative;
+}
+.places_for_sex-property-rating {
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--h6-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h6-font-size, 20px);
+    line-height: var(--h6-line-height, 150%);
+    font-weight: var(--h6-font-weight, 700);
+    position: relative;
+}
+.places_for_sex-points {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-main-menu-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-frame-190 {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: var(--white, #ffffff);
+    border-width: 2px;
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+}
+.places_for_sex-_18-20 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 600;
+    position: relative;
+    flex: 1;
+}
+.places_for_sex-_143 {
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--b3-font-family, "IbmPlexSans-Regular", sans-serif);
+    font-size: var(--b3-font-size, 16px);
+    line-height: var(--b3-line-height, 150%);
+    font-weight: var(--b3-font-weight, 400);
+    position: relative;
+}
+.places_for_sex-frame-262 {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+.places_for_sex-hotel-box {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+.places_for_sex-photo-box {
+    border-radius: 10px;
+    flex-shrink: 0;
+    width: 224px;
+    height: 224px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+.places_for_sex-info-box {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex: 1;
+    min-width: 280px;
+    position: relative;
+}
+.places_for_sex-left-colum {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    min-width: 290px;
+    position: relative;
+}
+.places_for_sex-frame-243 {
+    padding: 0px 72px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-park-inn-by-radisson-riga {
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--h4-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h4-font-size, 32px);
+    line-height: var(--h4-line-height, 120%);
+    font-weight: var(--h4-font-weight, 700);
+    position: relative;
+    align-self: stretch;
+}
+.places_for_sex-frame-261 {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 314.18px;
+    position: relative;
+}
+.places_for_sex-frame-264 {
+    background: var(--red, #cb2524);
+    border-radius: 2px;
+    padding: 0px 6px 0px 6px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-star-1 {
+    flex-shrink: 0;
+    width: 11.18px;
+    height: 10.74px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-link-one {
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: "WorkSans-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 110%;
+    font-weight: 500;
+    position: relative;
+}
+.places_for_sex-frame-263 {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-frame-177 {
+    padding: 0px 1px 0px 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 21px;
+    height: 22px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-link-one2 {
+    color: var(--red, #cb2524);
+    text-align: left;
+    font-family: "WorkSans-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 500;
+    position: relative;
+    width: 273px;
+}
+.places_for_sex-frame-244 {
+    padding: 0px 72px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-built-in-2016-park-inn-by-radisson-riga-valdemara-invites-its-guests-to-stay-on-the-western-side-of-daugava-river-with-good-connections-to-the-old-town-riga-international-airport-and-main-sights-guests-can-enjoy-a-meal-at-the-onsite-restaurant-enjoy {
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: var(--b4-font-family, "IbmPlexSans-Regular", sans-serif);
+    font-size: var(--b4-font-size, 14px);
+    line-height: var(--b4-line-height, 150%);
+    font-weight: var(--b4-font-weight, 400);
+    position: relative;
+    align-self: stretch;
+}
+.places_for_sex-link {
+    padding: 0px 4px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-link-one3 {
+    color: var(--red, #cb2524);
+    text-align: left;
+    font-family: "WorkSans-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    position: relative;
+}
+.places_for_sex-group-1171273540 {
+    flex-shrink: 0;
+    width: 11.41px;
+    height: 11.41px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-right-colum {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 166px;
+    height: 224px;
+    position: relative;
+}
+.places_for_sex-rating {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-rating2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-fabulous {
+    color: var(--red, #cb2524);
+    text-align: right;
+    font-family: var(--h6-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h6-font-size, 20px);
+    line-height: var(--h6-line-height, 150%);
+    font-weight: var(--h6-font-weight, 700);
+    position: relative;
+    align-self: stretch;
+}
+.places_for_sex-_3-030-reviews {
+    color: var(--white, #ffffff);
+    text-align: right;
+    font-family: var(--b4-font-family, "IbmPlexSans-Regular", sans-serif);
+    font-size: var(--b4-font-size, 14px);
+    line-height: var(--b4-line-height, 150%);
+    font-weight: var(--b4-font-weight, 400);
+    position: relative;
+    align-self: stretch;
+}
+.places_for_sex-rating3 {
+    background: var(--red, #cb2524);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-_8-5 {
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: var(--h5-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h5-font-size, 24px);
+    line-height: var(--h5-line-height, 150%);
+    font-weight: var(--h5-font-weight, 700);
+    position: relative;
+}
+.places_for_sex-filer-red-end {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--light-gray-v1, #362e35);
+    border-width: 2px;
+    padding: 10px 26px 10px 26px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-clear-filters {
+    color: var(--white, #ffffff);
+    text-align: left;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 600;
+    position: relative;
+}
+.places_for_sex-info-box2 {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex: 1;
+    height: 224px;
+    min-width: 280px;
+    position: relative;
+}
+.places_for_sex-two-wheels {
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--h4-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h4-font-size, 32px);
+    line-height: var(--h4-line-height, 120%);
+    font-weight: var(--h4-font-weight, 700);
+    position: relative;
+    align-self: stretch;
+}
+.places_for_sex-star-12 {
+    flex-shrink: 0;
+    width: 11.18px;
+    height: 10.74px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-frame-1772 {
+    padding: 0px 1px 0px 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 21px;
+    height: 22px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-group-11712735402 {
+    flex-shrink: 0;
+    width: 11.41px;
+    height: 11.41px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-photo-box2 {
+    border-radius: 10px;
+    padding: 8px;
+    flex-shrink: 0;
+    width: 224px;
+    height: 224px;
+    position: relative;
+    overflow: hidden;
+}
+.places_for_sex-image-3 {
+    width: 1024px;
+    height: 683px;
+    position: absolute;
+    left: -400px;
+    top: -229px;
+}
+.places_for_sex-kolonna-hotel-brigita {
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--h4-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h4-font-size, 32px);
+    line-height: var(--h4-line-height, 120%);
+    font-weight: var(--h4-font-weight, 700);
+    position: relative;
+    align-self: stretch;
+}
+.places_for_sex-star-13 {
+    flex-shrink: 0;
+    width: 11.18px;
+    height: 10.74px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-frame-1773 {
+    padding: 0px 1px 0px 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 21px;
+    height: 22px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-group-11712735403 {
+    flex-shrink: 0;
+    width: 11.41px;
+    height: 11.41px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-wellton-riverside-spa-hotel {
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--h4-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h4-font-size, 32px);
+    line-height: var(--h4-line-height, 120%);
+    font-weight: var(--h4-font-weight, 700);
+    position: relative;
+    align-self: stretch;
+}
+.places_for_sex-star-14 {
+    flex-shrink: 0;
+    width: 11.18px;
+    height: 10.74px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-frame-1774 {
+    padding: 0px 1px 0px 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 21px;
+    height: 22px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-group-11712735404 {
+    flex-shrink: 0;
+    width: 11.41px;
+    height: 11.41px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-info-box3 {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex: 1;
+    height: 254px;
+    min-width: 280px;
+    position: relative;
+}
+.places_for_sex-park-inn-by-radisson-riga-valdemara {
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--h4-font-family, "IbmPlexSans-Bold", sans-serif);
+    font-size: var(--h4-font-size, 32px);
+    line-height: var(--h4-line-height, 120%);
+    font-weight: var(--h4-font-weight, 700);
+    position: relative;
+    align-self: stretch;
+}
+.places_for_sex-star-15 {
+    flex-shrink: 0;
+    width: 11.18px;
+    height: 10.74px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-frame-1775 {
+    padding: 0px 1px 0px 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 21px;
+    height: 22px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-group-11712735405 {
+    flex-shrink: 0;
+    width: 11.41px;
+    height: 11.41px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-right-colum2 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 166px;
+    height: 254px;
+    position: relative;
+}
+.places_for_sex-paging {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-arrows {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-main-menu-buttons2 {
+    background: var(--light-gray-v1, #362e35);
+    border-radius: 10px;
+    padding: 12px 24px 12px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(-180deg) scale(1, 1);
+}
+.places_for_sex-group-11712735406 {
+    flex-shrink: 0;
+    width: 11.41px;
+    height: 11.41px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-main-menu-buttons3 {
+    background: var(--light-gray-v1, #362e35);
+    border-radius: 10px;
+    padding: 12px 24px 12px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+.places_for_sex-group-11712735407 {
+    flex-shrink: 0;
+    width: 11.41px;
+    height: 11.41px;
+    position: relative;
+    overflow: visible;
+}
+.places_for_sex-paging2 {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.places_for_sex-showing {
+    color: #cacaca;
+    text-align: left;
+    font-family: var(--b2-font-family, "IbmPlexSans-Regular", sans-serif);
+    font-size: var(--b2-font-size, 18px);
+    line-height: var(--b2-line-height, 150%);
+    font-weight: var(--b2-font-weight, 400);
+    position: relative;
+}
+.places_for_sex-frame-189 {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--deep-black, #100f14);
+    border-width: 2px;
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+}
+.places_for_sex-_01 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 600;
+    position: relative;
+}
+.places_for_sex-of-3 {
+    color: #cacaca;
+    text-align: left;
+    font-family: var(--b2-font-family, "IbmPlexSans-Regular", sans-serif);
+    font-size: var(--b2-font-size, 18px);
+    line-height: var(--b2-line-height, 150%);
+    font-weight: var(--b2-font-weight, 400);
+    position: relative;
+}
+
 /* Join the team */
 article.join_us_page-column > div > ul > li > a{
     color: white;

@@ -58,7 +58,7 @@
 <div class="more-options-pop-up-modal" id="profile-pop-up" style="display: none">
     <div class="more-options-pop-up_base">
         <div class="more-options-pop-up_frame">
-            <a class="more-options-pop-up_item" href="../pages/all_cities.php">
+            <a class="more-options-pop-up_item" href="../pages/places_for_sex_page.php">
                 <img class="more-options-pop-up_icon" src="../images/icons/icon-house.svg" />
                 <div class="more-options-pop-up_link">
                     <div class="more-options-pop-up_text">Place for date</div>
