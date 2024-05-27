@@ -465,9 +465,12 @@
                 </div>
             </div>
             <div class="filter-pop-up_points">
-<!--                <div class="filter-pop-up_point">-->
-<!--                    <div class="filter-pop-up_label">Services</div>-->
-<!--                </div>-->
+                <div class="filter-pop-up_point">
+                    <div class="filter-pop-up_label">
+                        Services
+                    </div>
+                </div>
+
                 <div class="filter-pop-up_menu-button">
                     <div class="filter-pop-up_icon"></div>
                     <div class="filter-pop-up_option">French kissing</div>
