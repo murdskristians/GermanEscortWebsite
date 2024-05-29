@@ -22,7 +22,7 @@
 <body>
 <?php  include_once $_SERVER['DOCUMENT_ROOT'] . '/inc/header.php'; ?>
 
-<div class="common-main-section">
+<div class="common-main-section" id="index-main-section">
 
     <div class="video-wrapper">
         <div class="blur-overlay"></div>
@@ -30,7 +30,7 @@
     </div>
 
     <div class="common-main-section-title">
-        <div class="common-main-heading">Featured models</div>
+        <h1 class="common-main-heading" id="index-title">Featured models</h1>
     </div>
 
 <!-- Filter -->

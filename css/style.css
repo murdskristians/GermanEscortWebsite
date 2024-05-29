@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+#index-main-section {
+    gap:0;
+}
+
+#index-title {
+    padding-top: 56px;
+}
 /* Confirm age view styles */
 
 .testimonial-20,
@@ -201,7 +210,7 @@
 .registration_page-button-text2 {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -384,7 +393,7 @@
 .wallet_view-copy-button-text {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -1073,7 +1082,7 @@
 .sexual_wellness-current-page {
     color: #ffffff;
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 18px;
     line-height: 150%;
     font-weight: 600;
@@ -1160,7 +1169,7 @@
 }
 .congratulations_page-button-label {
     color: #ffffff;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -1415,7 +1424,7 @@
 .places_for_sex-_18-20 {
     color: #ffffff;
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -1708,7 +1717,7 @@
 .places_for_sex-clear-filters {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 14px;
     line-height: 150%;
     font-weight: 600;
@@ -2013,7 +2022,7 @@
 .places_for_sex-_01 {
     color: #ffffff;
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 18px;
     line-height: 150%;
     font-weight: 600;
@@ -2334,7 +2343,7 @@ article.join_us_page-column > div > ul > li > a{
     overflow: hidden;
 }
 .join_step_1-terms-text {
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -2547,7 +2556,7 @@ article.join_us_page-column > div > ul > li > a{
 }
 .join_step_2-color-label {
     color: #ffffff;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 14px;
     line-height: 150%;
     font-weight: 600;
@@ -2589,7 +2598,7 @@ article.join_us_page-column > div > ul > li > a{
 }
 .join_step_2-action-label {
     color: #ffffff;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 14px;
     line-height: 150%;
     font-weight: 600;
@@ -2624,7 +2633,7 @@ article.join_us_page-column > div > ul > li > a{
 }
 .join_step_2-button-label {
     color: #ffffff;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -2765,7 +2774,7 @@ article.join_us_page-column > div > ul > li > a{
 
 .join_step_3-label {
     color: #ffffff;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -2807,7 +2816,7 @@ article.join_us_page-column > div > ul > li > a{
 
 .join_step_3-button-label {
     color: #ffffff;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -2937,7 +2946,7 @@ article.join_us_page-column > div > ul > li > a{
 .one_model-rating-value {
     color: #ffffff;
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 20px;
     line-height: 150%;
     font-weight: 600;
@@ -3208,7 +3217,7 @@ article.join_us_page-column > div > ul > li > a{
 .buton {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -3284,6 +3293,7 @@ article.join_us_page-column > div > ul > li > a{
     align-self: stretch;
     flex-shrink: 0;
     position: relative;
+    padding-bottom: 56px;
 }
 .main-submenu_buttons {
     background: linear-gradient(270deg, rgba(48, 15, 22, 1) 0%, rgba(48, 15, 22, 0) 100%);
@@ -3353,7 +3363,7 @@ article.join_us_page-column > div > ul > li > a{
 .main-submenu_text {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 14px;
     line-height: 150%;
     font-weight: 600;
@@ -3492,7 +3502,7 @@ article.join_us_page-column > div > ul > li > a{
 .home {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 20px;
     line-height: 150%;
     font-weight: 600;
@@ -3514,7 +3524,7 @@ article.join_us_page-column > div > ul > li > a{
 .cities {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 20px;
     line-height: 150%;
     font-weight: 600;
@@ -3535,7 +3545,7 @@ article.join_us_page-column > div > ul > li > a{
 .models {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 20px;
     line-height: 150%;
     font-weight: 600;
@@ -3556,7 +3566,7 @@ article.join_us_page-column > div > ul > li > a{
 .liked {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 20px;
     line-height: 150%;
     font-weight: 600;
@@ -3582,7 +3592,7 @@ article.join_us_page-column > div > ul > li > a{
 .special {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 20px;
     line-height: 150%;
     font-weight: 600;
@@ -3604,7 +3614,7 @@ article.join_us_page-column > div > ul > li > a{
 .newest {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 20px;
     line-height: 150%;
     font-weight: 600;
@@ -3626,7 +3636,7 @@ article.join_us_page-column > div > ul > li > a{
 .hottest {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 20px;
     line-height: 150%;
     font-weight: 600;
@@ -3695,7 +3705,7 @@ article.join_us_page-column > div > ul > li > a{
 .eng {
     color: var(--red, #cb2524);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 14px;
     line-height: 150%;
     font-weight: 600;
@@ -3947,7 +3957,7 @@ article.join_us_page-column > div > ul > li > a{
 .code {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -4171,7 +4181,7 @@ article.join_us_page-column > div > ul > li > a{
 
 .filter-pop-up_label, .filter-pop-up_option, .filter-pop-up_count {
     color: #ffffff;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 .filter-pop-up_label {
@@ -4529,7 +4539,7 @@ article.join_us_page-column > div > ul > li > a{
 .one_city-verified {
     color: var(--black, #131217);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 10px;
     line-height: 150%;
     font-weight: 600;
@@ -4742,7 +4752,7 @@ article.join_us_page-column > div > ul > li > a{
 .models_grid-page-number {
     color: #ffffff;
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 18px;
     line-height: 150%;
     font-weight: 600;
@@ -4923,6 +4933,7 @@ article.join_us_page-column > div > ul > li > a{
     justify-content: flex-start;
     flex-shrink: 0;
     position: relative;
+    padding: 26px 0;
 }
 .model_filter-box {
     background: var(--light-gray-v1, #362e35);
@@ -4963,7 +4974,7 @@ article.join_us_page-column > div > ul > li > a{
 .model_filter-button {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 14px;
     line-height: 150%;
     font-weight: 600;
@@ -4991,7 +5002,7 @@ article.join_us_page-column > div > ul > li > a{
 .model_filter-clear-text {
     color: var(--white, #ffffff);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 14px;
     line-height: 150%;
     font-weight: 600;
@@ -5074,7 +5085,7 @@ article.join_us_page-column > div > ul > li > a{
 .filter-pop-up_age-range {
     color: #ffffff;
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -5129,7 +5140,7 @@ article.join_us_page-column > div > ul > li > a{
 .filter-pop-up_label-red {
     color: var(--red, #cb2524);
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -5164,7 +5175,7 @@ article.join_us_page-column > div > ul > li > a{
 .filter-pop-up_option {
     color: #ffffff;
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -5255,7 +5266,7 @@ article.join_us_page-column > div > ul > li > a{
 .filter-pop-up_option {
     color: #ffffff;
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -5327,7 +5338,7 @@ article.join_us_page-column > div > ul > li > a{
 .filter-pop-up_option {
     color: #ffffff;
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -5399,7 +5410,7 @@ article.join_us_page-column > div > ul > li > a{
 .filter-pop-up_option {
     color: #ffffff;
     text-align: left;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     line-height: 150%;
     font-weight: 600;
@@ -5425,7 +5436,7 @@ article.join_us_page-column > div > ul > li > a{
     z-index: 1;
     color: white;
     left: 475px;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 #weight-pop-up {
@@ -5434,7 +5445,7 @@ article.join_us_page-column > div > ul > li > a{
     z-index: 1;
     color: white;
     left: 340px;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 #breast-pop-up {
@@ -5443,7 +5454,7 @@ article.join_us_page-column > div > ul > li > a{
     z-index: 1;
     color: white;
     left: 90px;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 #breast-pop-up-base{
@@ -5456,7 +5467,7 @@ article.join_us_page-column > div > ul > li > a{
     z-index: 1;
     color: white;
     left: -80px;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 #rates-pop-up-base{
@@ -5475,7 +5486,7 @@ article.join_us_page-column > div > ul > li > a{
     z-index: 1;
     color: white;
     left: -80px;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 #hair-pop-up-base{
@@ -5488,7 +5499,7 @@ article.join_us_page-column > div > ul > li > a{
     z-index: 1;
     color: white;
     left: 150px;
-    font-family: "IbmPlexSans-SemiBold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 #services-pop-up .filter-pop-up_base {
     display: flex;
